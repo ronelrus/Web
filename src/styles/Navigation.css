@@ -1,0 +1,23 @@
+#test {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    left: 3%;
+    height: 20vmin;
+    width: 3vmin;
+}
+.circle {
+    position: relative;
+    margin-top: 1vmin;
+    width: 2.6vmin;
+    height: 2.6vmin;
+    -webkit-border-radius: 1.3vmin;
+    -moz-border-radius: 1.3vmin;
+    border-radius: 1.3vmin;
+    border: 0.1vmin solid black;
+    cursor: pointer;
+}
+.circle:active{
+    background: white;
+}

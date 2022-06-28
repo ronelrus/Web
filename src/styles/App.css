@@ -1,0 +1,130 @@
+@import 'fonts.css';
+*{
+    user-select: none;
+}
+.Image {
+    pointer-events: none;
+}
+
+.App {
+    background: #FEF6E4;
+    font-family: 'Inter';
+    color: rgba(0, 24, 88, 1);
+
+}
+
+.Info {
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    overflow: auto;
+}
+
+.Info_block {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.Info_block img {
+    height: 100%;
+    width: 50%;
+    float: left;
+    user-select: none;
+}
+
+#Info {
+    width: 50%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    margin: auto;
+    float: right;
+    text-align: center;
+}
+
+#Info p {
+    position: relative;
+    top: 2.5em;
+    font-size: 5vmin;
+    line-height: 1em;
+}
+
+#Info b {
+    position: relative;
+    top: -1rem;
+    font-size: 12.7vmin;
+    line-height: 1em;
+}
+
+.About {
+    /*border: 1px solid blue;*/
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    overflow: auto;
+}
+
+.About #Header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 4.21377184vmin;
+    width: 19.78622816vmin;
+    border-bottom: .66vmin rgba(0, 24, 88, 1) solid;
+    font-weight: bold;
+    font-size: 6.58vmin;
+    line-height: 7.91vmin;
+}
+
+.About img {
+    position: relative;
+    height: 59.50668037vmin;
+    margin: auto;
+    float: left;
+}
+.About_block{
+    position: absolute;
+    height: 65%;
+    width:80%;
+    top: 5vmin;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*border: 1px solid blue;*/
+}
+#Ab {
+    position: relative;
+    top: 20%;
+    float: right;
+    width: 67%;
+}
+#About p{
+    text-align: justify;
+    position: relative;
+    margin: auto;
+    font-size: 3.288797533vmin;
+    line-height: 4.008221994vmin;
+}
+.Links {
+    position: relative;
+}
+.Links img{
+    margin-top: 1%;
+    margin-right: 2%;
+    position: relative;
+    height: 5.2vmin;
+}
