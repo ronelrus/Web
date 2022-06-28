@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/web/static/css/main.7f613f4d.css",
+    "main.js": "/web/static/js/main.ebb175b3.js",
+    "static/js/787.a556dbf1.chunk.js": "/web/static/js/787.a556dbf1.chunk.js",
+    "static/media/logo.svg": "/web/static/media/logo.e8001316e1fb9994d8d82ef7b0b3382e.svg",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/web/static/media/Inter-VariableFont_slnt,wght.b4c30855aff392d7e8dc.ttf",
+    "static/media/Inter-Bold.ttf": "/web/static/media/Inter-Bold.1eca2d329458b92342aa.ttf",
+    "static/media/image.svg": "/web/static/media/image.34d12d600d42d8413dc806cd017c2d6a.svg",
+    "static/media/insta.svg": "/web/static/media/insta.905664574e4f12ad52859e3811c010e5.svg",
+    "static/media/mail.svg": "/web/static/media/mail.f2ab2b3071bee9dfbcbba3fd9a765fc9.svg",
+    "static/media/git.svg": "/web/static/media/git.e10c2e4a82cd9db959de4b2f869fbb65.svg",
+    "index.html": "/web/index.html",
+    "static/media/telegram.svg": "/web/static/media/telegram.406c5f6841868bf07adfd7b7966ce18b.svg",
+    "main.7f613f4d.css.map": "/web/static/css/main.7f613f4d.css.map",
+    "main.ebb175b3.js.map": "/web/static/js/main.ebb175b3.js.map",
+    "787.a556dbf1.chunk.js.map": "/web/static/js/787.a556dbf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f613f4d.css",
+    "static/js/main.ebb175b3.js"
+  ]
+}
