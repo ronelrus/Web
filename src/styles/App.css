@@ -1,130 +1,155 @@
-@import 'fonts.css';
-*{
-    user-select: none;
-}
+@import "fonts.css";
+*{ user-select: none; }
 .Image {
     pointer-events: none;
+    min-height: 75vh;
+    max-height: 90vh;
 }
-
-.App {
-    background: #FEF6E4;
-    font-family: 'Inter';
+#root { height: max-content; }
+body {
+    background: url("pictures/background.png") fixed;
+    background-size: 100% 100%;
     color: rgba(0, 24, 88, 1);
-
+    font-family: 'Inter';
 }
-
-.Info {
-    background: inherit;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    overflow: auto;
+.Part {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    flex-direction: column;
+    align-content: center;
 }
-
-.Info_block {
-    position: absolute;
-    width: 90%;
-    height: 80%;
+.Text {
+    position: relative;
+    min-width: 45%;
+    max-width: 80%;
+    height: max-content;
+    margin: auto;
+    text-align: justify;
+    color: white;
+}
+.Header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    top: 6vmin;
+    width: 100vw;
+    height: max-content;
+    z-index: 5;
+    color: white;
+}
+.Block {
+    align-content: center;
+    position: relative;
     top: 0;
+    bottom: 0;
+    left: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    margin: auto auto;
+    overflow: hidden;
+    justify-content: center;
 }
-
-.Info_block img {
-    height: 100%;
-    width: 50%;
-    float: left;
-    user-select: none;
-}
-
-#Info {
-    width: 50%;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    margin: auto;
-    float: right;
+.Hello p {
     text-align: center;
-}
-
-#Info p {
     position: relative;
-    top: 2.5em;
+    margin: 0 auto;
     font-size: 5vmin;
     line-height: 1em;
 }
-
-#Info b {
-    position: relative;
-    top: -1rem;
+.Hello b {
     font-size: 12.7vmin;
     line-height: 1em;
 }
-
-.About {
-    /*border: 1px solid blue;*/
-    background: inherit;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    overflow: auto;
-}
-
-.About #Header {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 4.21377184vmin;
-    width: 19.78622816vmin;
-    border-bottom: .66vmin rgba(0, 24, 88, 1) solid;
+.Header p {
+    width: max-content;
+    border-bottom: .4rem rgba(0, 24, 88, 1) solid;
+    font-size: 3rem;
+    line-height: 2.3rem;
     font-weight: bold;
-    font-size: 6.58vmin;
-    line-height: 7.91vmin;
 }
-
+.About .Image { width: 20vw; }
 .About img {
     position: relative;
-    height: 59.50668037vmin;
     margin: auto;
     float: left;
 }
-.About_block{
-    position: absolute;
-    height: 65%;
-    width:80%;
-    top: 5vmin;
-    bottom: 0;
+.About .Text {
+    height: 50%;
+    min-width: 45vw;
+    width: 25rem;
+    max-width: 80vw;
+}
+.About .Text p{
+    margin: auto;
+    width: content-box;
+    font-size: 25px;
+    line-height: 38px;
+}
+.Links {
     left: 0;
     right: 0;
     margin: auto;
-    /*border: 1px solid blue;*/
-}
-#Ab {
-    position: relative;
-    top: 20%;
-    float: right;
-    width: 67%;
-}
-#About p{
-    text-align: justify;
-    position: relative;
-    margin: auto;
-    font-size: 3.288797533vmin;
-    line-height: 4.008221994vmin;
-}
-.Links {
-    position: relative;
+    display: flex;
 }
 .Links img{
     margin-top: 1%;
-    margin-right: 2%;
+    margin-right: 1.5vmin;
     position: relative;
     height: 5.2vmin;
+    filter: invert(100%);
+    -webkit-filter:invert(100%);
 }
+.Skills .image {
+    margin: auto;
+}
+.Project {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh auto;
+}
+.Projects .Block {
+    justify-content: center;
+    height: 85%;
+    flex-wrap: wrap-reverse;
+}
+.Project div {
+    margin: 3rem auto 0 auto;
+    padding: auto;
+    width: max-content;
+    height: max-content;
+}
+.Project .Header {
+    margin: 0 auto;
+    font-size: 35px;
+    height: max-content;
+}
+.Project .Header p{
+    border-bottom: none;
+    width: 100%;
+}
+.Project img {
+    position: relative;
+    width: 380px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.Project .Text {
+    margin: .5em auto auto auto;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+.Project .Image {
+    display: block;
+    height: 5px;
+}
+@media all and (orientation: portrait) { .Image { display: none; } }
+@media all and (max-width: 760px) { .Image { display: none; } }
